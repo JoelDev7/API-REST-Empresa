@@ -37,14 +37,9 @@ class UsuarioModel extends Model
         }
     }
 
-    // public function retornarTodosLosUsuarios()
-    // {
-        
-    // }
-
     public function retornarUsuarioPorNombreDeUsuario (string $nombre_usuario)
     {
-        $usuario = $this->asArray()->where(['nombre_usuario' => $nombre_usuario])->execute();
+        $usuario = $this->asArray()->where(['nombre_usuario' => $nombre_usuario])->first();
 
         if (!$usuario)
         {
