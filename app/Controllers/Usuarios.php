@@ -14,9 +14,4 @@ class Usuarios extends ResourceController
         return $this->respond($this->model->findAll());
     }
 
-    // Recibe como parámetro el 
-    public function show ($id = null)
-    // {
-
-    // }
 }
