@@ -16,4 +16,4 @@
 ## Ejecución
 
 * Iniciar el servidor de laragon, xampp o usar el comando __php spark serve__
-* Ir a la url __http://localhost:8080__
+* Ir a la url __http://localhost:8080/usuarios__
